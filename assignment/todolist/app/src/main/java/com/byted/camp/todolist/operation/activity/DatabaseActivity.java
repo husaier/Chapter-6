@@ -15,8 +15,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.byted.camp.todolist.R;
+import com.byted.camp.todolist.operation.db.AppDatabase;
 import com.byted.camp.todolist.operation.db.FeedReaderContract.FeedEntry;
 import com.byted.camp.todolist.operation.db.FeedReaderDbHelper;
+import com.byted.camp.todolist.operation.db.entity.User;
 
 
 public class DatabaseActivity extends AppCompatActivity implements View.OnClickListener {
